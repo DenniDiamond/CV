@@ -94,14 +94,14 @@ body {
     flex-direction: column;
     font-size: 16px;
     line-height: 24px;
-    width: 520px;
+    width: 600px;
     padding: 10px 10px 10px 40px ;
     background-color: #1e2939;
     opacity: 70%;
     border-radius: 45px;
     color: #ffffff;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .a {
