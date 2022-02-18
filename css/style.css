@@ -12,9 +12,8 @@ body {
 }
 
 .all-back {
-  
     width: 1341px;
-    height: 1500px;
+    height: 1900px;
     background: url('../img/back2.jpg');
     display: flex;
     box-shadow: #1e2939;
@@ -22,138 +21,161 @@ body {
     margin: 20px auto;
 }
 
-.all {
-    padding-left: 90px;
-    padding-top: 110px;
-    padding-right: 90px;
-    padding-bottom: 110px;
-}
-
-.contacts-cont {
-    margin-top: 60px;
-    margin-left: 5px;
-    margin-right: 40px;
-    width: 320px;
-}
-
-.tech-skills {
-    
-    width: 320px;
-    color: #ffffff;
-    padding-left: 40px;
-}
-
-.soft-skills {
-
-    width: 320px;
-    color: #ffffff;
-    padding-left: 40px;
- }
-
- .img-foto {
+.img-foto {
     margin: 40px 0 0 40px;
     height: 370px;
     width: 370px;
     border-radius: 400px;
 }
- 
+
 .side-cont {
-    margin: 450px 0 0 -340px;
-    width: 330px;
-    height: 735px;
+    margin: 450px 0 0 -300px;
+    width: 250px;
+    height: 435px;
     background-color: #1e2939;
-    border-radius: 20px;
+    border-radius: 45px;
     opacity: 70%;
-    padding: 0 10px 0 20px;
-}
-.my-inform {
-    padding-top: 150px;
-    width: 500px;
-    height: 189px;
-    display: flex;
-    flex-direction: column;
-    scroll-padding-top: 80;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.mf {
-    width: 520px;
-    padding: 10px 10px 10px 40px ;
-    background-color: #1e2939;
-    opacity: 70%;
-    border-radius: 46px;
+    padding: 20px 10px 0 20px; 
     color: #ffffff;
-}
+    padding-left: 30px;
 
-.cont-tit {
-color: #ffffff;
-font-size: 40px;
-margin-bottom: 20px;
-padding-left: 20px;
-
-}
-
-.cont-link {
-font-size: 19px;
-font-weight: 400;
-line-height: 24px;
-color: #707782;
-}
-
-.cont-link-tip {
-font-size: 14px;
-font-weight: 700px;
-line-height: 24px;
-color: #ffffff;
 }
 
 .tech-tit {
     font-size: 22px;
-    font-weight: 700;
     line-height: 24px;
     color: #ffffff;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
-.soft-tit {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 20px;
-    margin-top: 20px;
+
+.all {
+    padding-left: 90px;
+    padding-top: 110px;
+    padding-right: 90px;
+    padding-bottom: 90px;
 }
 
-.education {
-    padding: 10px 10px 10px 40px ;
+.title {
+    margin-left: 70px;
+}
+
+.contacts {
+    margin: -200px 0px 0px 450px ;
+    width: 350px;
+    padding: 10px 10px 40px 40px ;
     background-color: #1e2939;
     opacity: 70%;
-    border-radius: 46px;
-    color: #ffffff;
-    width: 620px;
-}
-
-.exp {
-    margin-top: 20px;
-    padding: 10px 10px 10px 40px ;
-    background-color: #1e2939;
-    opacity: 70%;
-    border-radius: 46px;
+    border-radius: 45px;
     color: #ffffff;
 }
 
+.cont-tit {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+    
 .svg {
     height: 25px;
     width: 25px;
     margin-top: 5px;
 }
+    
+.cont-link {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #707782;
+}
+        
+.mf {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    width: 520px;
+    padding: 10px 10px 10px 40px ;
+    background-color: #1e2939;
+    opacity: 70%;
+    border-radius: 45px;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-left: 200px;
+}
 
 .a {
     color: #ffffff; 
 }
-
-.title {
+    
+.education {
     margin-left: 100px;
+    padding: 10px 10px 10px 40px ;
+    background-color: #1e2939;
+    opacity: 70%;
+    border-radius: 45px;
+    color: #ffffff;
+    width: 650px;
+}
+
+.exp {
+    width: 650px;
+    margin-top: 90px;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: #1e2939;
+    opacity: 70%;
+    border-radius: 45px;
+    color: #ffffff;
+}
+
+.end {
+    margin-top: 50px;
+    height: 400px;
+    width: 800px;
+    margin-left: -100px;
+}
+
+.Dream {
+    font-size: 30px;
+    margin-left: 200px;
+    color: azure;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    padding: 0 20px ;
+}
+
+.slide {
+    height: 150px;
+    border-radius: 45px;
+    margin: 10px;
+    cursor: pointer;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.slide h3 {
+    color:  rgb(255, 255, 255);
+    position:absolute ;
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.slide.active{
+    flex:10;
+}
+
+.slide.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
